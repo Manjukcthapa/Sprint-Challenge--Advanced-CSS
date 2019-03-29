@@ -7,7 +7,10 @@
       margin-top:3px;
       .container();
     }
-
+     h2{
+       font-size:20px;
+       .header();
+     }
 
     p {
       padding:0 15px;
@@ -27,6 +30,11 @@
       margin: 20px 2.5%;
       border-radius: 20px;
       height: 100%;
+      @media @phone{
+        .img1{
+          width:100%
+        }
+      }
     
     }
     .img3{
@@ -65,19 +73,25 @@
   .walk {
     margin-top: 60px;
     border-top: 1px solid @main-border-color;
-    
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
 
+    @media @phone{
+      margin-top:20px;
+      display:flex;
+      flex-direction:column;
+      width:100%
+    }
+   
+
     .walk-text {
       width: 50%;
-      
-
       @media @phone{
-        margin-top:20px;
+        width:100%;
+        margin-top:10px;
       }
-
+      
       h3 {
         margin-bottom: 10px;
       }
@@ -89,6 +103,9 @@
       .btn {
         .signup-button{
           .custom-btn(blue,white);
+          @media @phone{
+            width:70%;
+          }
         }
         
         

@@ -174,7 +174,7 @@ p {
   background-color: #F6F6F6;
 }
 .headertop nav {
-  justify-content: space-evenly;
+  justify-content: center;
   margin-top: 20px;
 }
 @media (max-width:500px) {
@@ -191,7 +191,7 @@ p {
 @media (max-width:500px) {
   .headertop nav a {
     justify-content: space-evenly;
-    margin-left: 20px;
+    margin-left: 15px;
   }
 }
 .headertop h1 {
@@ -228,11 +228,6 @@ footer {
   margin: 20px 2.5%;
   border-radius: 20px;
   height: 100%;
-}
-@media (max-width:500px) {
-  .home .space-images img .img1 {
-    width: 100%;
-  }
 }
 @media (max-width:500px) {
   .home .space-images .img3 {

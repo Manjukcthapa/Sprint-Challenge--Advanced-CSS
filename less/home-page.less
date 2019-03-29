@@ -1,11 +1,17 @@
 // Home Content
-
+@media @mobile {
+  img {
+    width: 100%;
+}
+}
 .home {
 
   .intro {
     .about{
       margin-top:3px;
       .container();
+
+     
     }
      h2{
        font-size:20px;
@@ -14,7 +20,7 @@
     p {
       padding:0 15px;
     }
-  
+   
   }
 
 
@@ -29,11 +35,8 @@
       margin: 20px 2.5%;
       border-radius: 20px;
       height: 100%;
-      @media @phone{
-        .img1{
-          width:100%
-        }
-      }
+      .img();
+      
     
     }
     .img3{
@@ -50,15 +53,19 @@
 
       }
     }
-    }
-  
 
- 
-  
+ #blash{
+  @media @phone{
+    width:200px;
+  }
+ }
+
+
+
 
 
   .visit-planets {
-    padding: 15px;
+    .header2();
 
     h3 {
       margin-top: 11px;

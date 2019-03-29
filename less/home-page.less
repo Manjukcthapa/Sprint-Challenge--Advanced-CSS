@@ -4,13 +4,10 @@
 
   .intro {
     .about{
-      width:100%;
       margin-top:3px;
+      .container();
     }
 
-    h2 {
-      padding: 15px;
-    }
 
     p {
       padding:0 15px;
@@ -30,8 +27,28 @@
       margin: 20px 2.5%;
       border-radius: 20px;
       height: 100%;
+    
+    }
+    .img3{
+      @media @phone{
+        display:none;
+      }
+      
+
+    }
+    .img2 {
+      @media @phone{
+        display:none;
+      }
+
+      }
+    }
     }
   }
+
+ 
+  
+
 
   .visit-planets {
     padding: 15px;
@@ -65,8 +82,10 @@
 
       .btn {
         .signup-button{
-          .custom-btn;
+          .custom-btn(blue,white);
         }
+        
+        
       }
     }
 

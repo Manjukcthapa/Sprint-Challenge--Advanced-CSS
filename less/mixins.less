@@ -1,16 +1,29 @@
 // Mixins Here
-.custom-btn(@backgroundcolor:grey,@font:red){
-    margin-top:0px;
-    margin-right:10px;
-    margin-bottom:20px;
-      cursor: pointer;
-    background-color:@backgroundcolor;
-    height:45px;
-    border-radius: 30px;
-    width:200px;
-    font-size:2rem;
-    color:@font; 
-}
+
+.custom-btn( @bgColor: #FFBF27, @fontColor: black ) {
+    display: block;
+    margin: 0 10px 20px;
+    cursor: pointer;
+    height: 45px;
+    font-size: 2rem;
+    border-radius: 10px;
+    width: 100px;
+    background-color: @bgColor;
+    color: @fontColor;
+      
+    &:hover {
+      background-color: @fontColor;
+      color: @bgColor;
+    }
+    
+   
+  }
+  
+
+
+
+
+
 
 .header2{
     padding: 15px;

@@ -5,31 +5,39 @@
     flex-direction:column;
     align-items:center;
    justify-content:center;
-   justify-content: space-between;
+  
     background-color:@wild-sand;
     nav{
-       
-        
+        justify-content: space-between;
         margin-top:20px;
+        @media @phone{
+            justify-content:center;
+            align-items: center;
+            
+        }
 
     a{
         margin-left:20px;
         font-size:20px;
         color:@river-bend;
         @media @phone{
+            
             justify-content:space-evenly;
             margin-left:5px;
         }
     
     }
 
+
+   
+    }
+   
+}
+
+.headertop{
     h1{
-        font-size: 3.2rem;
-        padding: 15px;
-        font-size:60px;
+        font-size:2rem;
+
     }
-   
-    }
-   
 }
 
